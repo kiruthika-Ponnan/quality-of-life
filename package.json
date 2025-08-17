@@ -2,7 +2,7 @@
   "name": "quality-of-life-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kiruthika-ponnan.github.io",
+  "homepage": "https://kiruthika-ponnan.github.io/quality-of-life",
   "dependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
