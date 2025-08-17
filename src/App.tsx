@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -15,6 +15,8 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/quality-of-life" element={<Navigate to="/" replace />} />
+            <Route path="/quality-of-life/" element={<Navigate to="/" replace />} />
             <Route path="/ai-mentor" element={<AIMentor />} />
             <Route path="/book-medic" element={<BookMedic />} />
             <Route path="/lesson" element={<Lesson />} />
